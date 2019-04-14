@@ -1,0 +1,22 @@
+{
+  "name": "tcfback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gilad Maoz",
+  "license": "MIT",
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "body-parser": "^1.18.3",
+    "bunyan": "^1.8.12",
+    "express": "^4.16.4",
+    "firebase-admin": "^7.2.0",
+    "firebase-functions": "^2.2.1"
+  }
+}

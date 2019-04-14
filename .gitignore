@@ -1,0 +1,10 @@
+.circleci/
+**/node_modules/*
+**/.firebaserc
+.runtimeconfig.json
+.firebase/
+node_modules/
+.npm
+.env
+.env.test
+functions/config/*`
