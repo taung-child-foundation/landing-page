@@ -1,0 +1,209 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://qa.taungchild.foundation/"
+languageCode = "en-AU"
+title = "Taung Child Foundation"
+
+# Metadata
+[params]
+  author = "Sindiswa Nobula "
+  description = "Youth development volunteer organisation"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "img/kago-5.jpg"
+  title = "Taung Child Foundation"
+  description = "Going beyond, together"
+
+# Navigation section
+[params.nav]
+  mission = "About us"
+  services = "Services"
+  team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+   logo = "img/tcf-logo.png"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "img/kago-6.jpg"
+    [[params.mission.images.list]]
+      img = "img/kago-4.jpg"
+    [[params.mission.images.list]]
+      img = "img/kago-7.jpg"
+    [[params.mission.images.list]]
+      img = "img/kago-2.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "story"
+    title = "Our story"
+    subtitle = "<b>If you want to go fast, go alone. If you want to far, go together.</b> ~An African Proverb."
+    description = "<p><b>Taung Child Foundation (TCF)</b> is a youth development volunteer organisation operating in and around the Greater Taung District Municipality, in the North-West Province of South Africa.<br />Our name is inspired by and pays homage to the original Taung Child, a 2.8 million years old hominid fossil which was discovered in the village of Buxton in Taung in 1924.<br />Despite being at the centre of human evolution, Taung remains one of the most impoverished and underdeveloped areas in South Africa.<br /> Poverty is a rampant and systemic issue in this rural area with devastating impacts on the lives of the people who call this region home, especially the youth. Our goal as Taung Child Foundation is, together with other stakeholders, play a strategic and active role in improving the quality of the lives of the youth in this region.<br /><br /><br /><b>Our mission is to help every Taung Child realise their full potential.</b><br /><br />The African philosophy of Ubuntu or Botho in Setswana, the local language of Taung, is what inspires us and a vision for a just and equal world is what drives us. We have heart, bold plans and a network of talented and enthusiastic people who want to help every rural child go beyond their wildest dreams and every day obstacles – starting in the home of the Taung Child.</p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "challenge"
+    title = "The Challenge"
+    subtitle = ""
+    description = "<p>With an unemployment rate of 49.8%  (62% of which accounts for youth unemployment) and high poverty levels, the Greater Taung District, in the North-West Province, is one of the most underdeveloped and impoverished areas in the country. Located about 250km south of the capital, Mahikeng, the municipality is home to almost 170 000 people scattered over 106 villages of varying sizes.  Dependent largely on an agriculture based economy, job opportunities are scarce and service delivery is poor. In fact, the recent Government Performance Index, compiled by research and advocacy group Good Governance Africa (GGA) and released in February 2016, ranked the municipality as one of the 20 worst managed municipalities in the country (it was ranked 216 out of 234 municipalities).<br />Quality education and youth development remains inaccessible to many young people in Taung. With many schools in the area are poorly resourced, operating without libraries, computer and science labs and sports facilities and equipment. The area is also a victim of the digital divide with approximately 80% of the population living without access to the internet.<br />Poor quality and low levels of education, lack of employment and development opportunities as well as the digital divide inhibit young people in this region to realise their full potential and live their best  life. Without well informed, skilled and employed young people, Taung will remain in the clutches of poverty and so will her people.<br /><br /><u>Key stats:</u><br/><ul><li>Almost half of the area’s population is unemployed (at 49, 8% unemployment rate), with the youth accounting for 62% of this number.</li><li>Only seven per cent of the population has completed secondary education and only 4.7% of school leavers have higher education.</li><li>63.5% of households in Taung survive on an income ranging from R1 to R38 200 per annum while 20.5% have no income at all.</li><li>83.5% of the population has no access to the internet.</li></ul><br/>https://municipalities.co.za/demographic/1196/greater-taung-local-municipality</p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "What are we doing about it"
+  description = "<p>TCF was born in 2011 as a <a href='https://www.facebook.com/taungchildfoundation/'>platform on Facebook</a> to connect with young people in the area and provide them with education and career information that they would otherwise not have access to. In February 2019, we formally registered non-profit with the South African government and we are now working to transition from an online platform to a fully functioning community organization which is making an impact on the ground.<br/>Our vision is  future in which every Taung Child has the opportunity and resources to reach their greatest potential. We want to go to beyond…together.<br/><br/><u>We have four urgent goals:</u><li>Improve the quality and quantity of matric pass rates.</li><li>Increase number of Taung learners entering institutions of higher learning and graduating.</li><li>Bridge the digital divide and upskill the youth in ICT.</li><li>Provide meaningful and sustainable  development and employment opportunities for the youth in the area.</li></p><br/><br/><h4>How do we plan do this</h4><br/>We have an ambitious plan and it involves three key interventions"
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "Establish TLC (Technology, Learning & Creativity)centres"
+    description = "These are safe and well-resourced spaces where young people can access tech, learn and explore their creativity.  Through these centres we will be able to improve the learning experience of students, upskill them in various areas and also bridge the digital gap."
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Develop a tutoring and mentorship programme"
+    description = "Talented and unemployed youth will be trained to become tutors in key subjects and support high school learners. In turn they will receive a small stipend and assistance with furthering their studies. We will also establish a mentorship programme with successful professionals from Taung."
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "Continue facilitating access to education, and career opportunities"
+    description = "Through the TCF Facebook page and website, career expos and targeted career guidance"
+
+# Work section
+[params.work]
+  enable = false
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet The Team"
+  description = "We have heart, big dreams, bold plans and a network of enthusiastic and brilliant young people who want to make this world a more equal one."
+
+  [[params.team.item]]
+    name = "Jean Doe"
+    position = "Chief legend"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person1.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    linkedin = "#"
+    whatsapp = "#"
+
+  [[params.team.item]]
+    name = "Alice Doe"
+    position = "Chief overlord"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person2.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    whatsapp = "#"
+
+  [[params.team.item]]
+    name = "John Doe"
+    position = "Chief haranguer"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person3.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    whatsapp = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   email = "#"
+  #   telephone = "#"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+  #   whatsapp = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "I can copyright whateveeeeaaaa"
+  github = "#"
+  twitter = "#"
+  facebook = "#"
+  vine = "#"
+  linkedin = "#"
+  instagram = "#"
+

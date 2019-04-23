@@ -1,0 +1,7 @@
+{
+  "sendGrid":{
+    "recipient": "info@taungchild.foundation",
+    "subject": "New incoming message from {name}"
+  }
+
+}
