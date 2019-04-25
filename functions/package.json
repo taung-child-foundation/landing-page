@@ -4,19 +4,32 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "init": "node config/init.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gilad Maoz",
   "license": "MIT",
   "engines": {
-    "node": "8"
+    "node": "10"
   },
   "dependencies": {
     "@sendgrid/mail": "^6.3.1",
     "body-parser": "^1.18.3",
     "bunyan": "^1.8.12",
+    "connect-session-firebase": "^5.13.0",
+    "csurf": "^1.10.0",
     "express": "^4.16.4",
+    "express-session": "^1.16.1",
     "firebase-admin": "^7.2.0",
     "firebase-functions": "^2.2.1"
+  },
+  "devDependencies": {
+    "husky": "^2.1.0"
+  },
+
+  "husky": {
+    "hooks": {
+      "pre-commit": "node config/init.js"
+    }
   }
 }

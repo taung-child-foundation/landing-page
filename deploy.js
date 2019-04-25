@@ -1,7 +1,8 @@
-
 const fs = require('fs');
-const token = process.env['token'];
-const projectName = (JSON.parse(fs.readFileSync(`${__dirname}/.firebaserc`, 'utf8'))).projects[process.env.NODE_ENV ? process.env.NODE_ENV : 'default'];
+const token = process.env['FIREBASE_TOKEN'];
+const projectName = (JSON.parse(fs.readFileSync(`${__dirname}/.firebaserc`, 'utf8')))
+    .projects[process.env.NODE_ENV ? process.env.NODE_ENV : 'default'];
+
 /**
  * FireBase Deployment script
  * FOR CI USE ONLY!

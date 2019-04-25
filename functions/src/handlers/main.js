@@ -10,3 +10,6 @@ exports.push = {
     )
 };
 
+exports.form = {
+    type: 'get', exec: ((req,res)=>res.status(200).send(req.csrfToken()))
+};
