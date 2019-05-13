@@ -589,9 +589,6 @@ p {
 }
 #fh5co-services .service {
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-bottom: 40px;
   padding: 40px 20px 20px 20px;
   background: #fff;
   border: 1px solid transparent;
@@ -606,7 +603,6 @@ p {
 #fh5co-services .service .icon {
   text-align: center;
   width: 100%;
-  margin-bottom: 30px;
 }
 #fh5co-services .service .icon i {
   font-size: 40px;
@@ -862,7 +858,7 @@ p {
 }
 
 #fh5co-contact {
-  padding: 7em 0;
+  padding: 1em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-contact {

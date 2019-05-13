@@ -49,3 +49,15 @@
 .panel-title a:focus {
     text-decoration: none !important;
 }
+
+.service {
+    padding: 20px !important;
+}
+
+.service h3 {
+    margin: 5px 0 20px 0 !important;
+}
+
+.service h3, .service p {
+    line-height: 1.5;
+}
